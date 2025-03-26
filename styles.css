@@ -50,8 +50,9 @@ section {
     height: auto;
 }
 .logo {
-    width: 45px;
-    height: 45px;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 
