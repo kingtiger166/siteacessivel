@@ -49,6 +49,11 @@ section {
     width: 45rem;
     height: auto;
 }
+.logo {
+    width: 45px;
+    height: 45px;
+}
+
 
 
 .esquerda-conteudo {
