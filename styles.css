@@ -2,15 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #000000;
+    --laranja-claro: #ff0000;
+    --alto-contraste-fundo: #979797;
     --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --alto-contraste-link: #000000;
 }
 
 body {
     font-size: 1rem;
     font-family: 'Montserrat';
+    background-color: #4e4e4e;
 }
 
 header {
@@ -24,8 +25,8 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
-    font-weight: 600;
+    color: #ffffff;
+    font-weight: 300;
 }
 
 .inicio-fundo {
@@ -83,8 +84,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/pizza.png') top right no-repeat,
+        url('img/controle.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -103,7 +104,7 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: var(--alto-contraste-texto);
 }
 
 #galeria {
@@ -117,7 +118,6 @@ h2 {
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
